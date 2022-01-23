@@ -42,9 +42,9 @@ public Product(String product_name, double product_price, int product_quantity) 
 	this.product_price = product_price;
 	this.product_quantity = product_quantity;
 }
-//public long getPid() {
-//	return pid;
-//}
+public long getPid() {
+	return pid;
+}
 
 @Override
 public String toString() {
